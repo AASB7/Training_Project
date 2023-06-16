@@ -8,6 +8,7 @@ export default function Home() {
     <Navbar/>
     <h3>Home Page , Hello</h3>
     <h3>Test App </h3>
+    <p>aryam, hello team</p>
     </>
   )
 }
