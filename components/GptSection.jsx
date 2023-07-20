@@ -1,6 +1,5 @@
 function GptSection() {
   return (
-    <>
     <div className="m-10  inline-block  bg-gradient-to-br from-color-blog to-blue-400">
 
     <div className="flex justify-between">
@@ -12,11 +11,9 @@ function GptSection() {
      Friendly bachelor entrance to on by.</p>
     </div>
     
-    <div>
-    <span className="p-8 flex justify-between">
+    <div className="p-8 flex justify-between">
     <h3 className=" text-3xl bg-gradient-to-r from-purple-500 to-orange-400 bg-clip-text text-transparent w-1/3">The possibilities are beyond your imagination</h3>
     <h6 className=" text-orange-400 text-sm ">Explore The Library</h6>
-    </span>
     </div>
     
 
@@ -40,7 +37,6 @@ function GptSection() {
     
 
     </div>
-    </>
   )
 }
 
