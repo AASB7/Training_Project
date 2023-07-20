@@ -22,17 +22,17 @@ function GptSection() {
 
 
     <div className="p-8 flex justify-between ">
-    <div className="">
+    <div>
     <h4 className="font-bold text-white">Chatbots</h4>
     <p className="p-8 sm:pl-2 text-color-text">We so opinion friends me message as delight. Whole front do of plate heard oh ought. </p>
     </div>
 
-    <div className="">
+    <div>
     <h4 className="font-bold text-white">Knowledgebase</h4>
     <p className="p-8 sm:pl-2 text-color-text">At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b </p>
     </div>
 
-    <div className="">
+    <div>
     <h4 className="font-bold text-white">Education</h4>
     <p className="p-8 sm:pl-2 text-color-text">At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b </p>
     </div>
