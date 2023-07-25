@@ -2,3 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+
+.grid_date{
+  @apply md:pb-4 pb-2 text-xs;
+}
+
+.grid_read_article{
+  @apply md:pt-8 pt-4 text-xs  cursor-pointer;
+}
+
+.grid_bg{
+  @apply p-4 md:pb-8 bg-color-blog ;
+}
+
+.text_gradient_color{
+  @apply bg-gradient-to-r from-purple-500 to-orange-400 bg-clip-text text-transparent;
+}

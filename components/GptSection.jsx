@@ -1,6 +1,6 @@
 function GptSection() {
   return (
-    <div className="m-10  inline-block  bg-gradient-to-br from-color-blog to-blue-400">
+    <div className="m-10   bg-gradient-to-br from-color-blog to-blue-400">
 
     <div className="flex justify-between">
     <h2 className="pl-8 pt-8 	text-3xl font-bold text-white w-1/2">What is GPT-3</h2>
