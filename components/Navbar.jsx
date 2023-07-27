@@ -1,9 +1,5 @@
-
-
 function Navbar() {
-  return (
-    <div className=" bg-red-200">Navbar</div>
-  )
+    return <div className='text-red-500'>test</div>;
 }
 
-export default Navbar
+export default Navbar;
