@@ -1,11 +1,12 @@
 import GptSection from '@/components/GptSection'
 import Navbar from '@/components/Navbar'
+import Blogs from '@/components/Blogs'
 
 
 export default function Home() {
   return (
     <>
-    <div className="bg-color-bg">
+    <div className=" bg-color-bg">
     <h1 className="text-color-text">Welcome</h1>
     <Navbar/>
     <h3 className="text-color-text">Home Page , Hello</h3>
@@ -14,6 +15,9 @@ export default function Home() {
 
 
     <GptSection/>
+
+    <Blogs/>
+
     </div>
     </>
   )
