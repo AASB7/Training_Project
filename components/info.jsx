@@ -15,21 +15,27 @@ function Info() {
       <button className="sign"> sign in</button>
       <button>login </button>
     
+    <div className="home">
     <img src="images/ai.png"></img>
-    <div  >
+    
       <h2 >Let's Build something <br/> amazing with GPT-3 <br/>openAl </h2>
-      <p>Yet bad any for travelling assistance indulgence unpleassing not <br/>throughts all exercise blessing  
-        way everything joy altereation boisterous <br/>the attachment  party we years to order allow asked of. </p>
-      <button className="email">enter your email </button>
+      <p>Yet bad any for travelling assistance indulgence unpleassing<br/> not throughts all exercise blessing  
+      <br/>  way everything joy altereation boisterous the attachment  party<br/> we years to order allow asked of. </p>
+      <button className="email">Your Email Address </button>
     <button className="Get">Get started </button>
 </div>
 
 <div className="peoples">
   <img src="images/people.png" className="people1"></img>
  <p className="p1">1,600 poples requested access a visit in last 24 hours  </p>
- 
 </div>
-
+ <div  className="images">
+  <img src="images/google.png"></img>
+  <img src="images/slack.png"></img>
+  <img src="images/atlassian.png"></img>
+  <img src="images/dropbox.png"></img>
+  <img src="images/shopify.png"></img>
+ </div>
     </>
   );
 }
