@@ -1,7 +1,6 @@
 function Content() {
     return (
-        <div className='bg-color-f9'>
-            /* Div Main */
+        <div className='justify-around p-20 basis-2/5'>
             <div className='flex justify-around '>
                 <div className='basis-1/4  pl-10'>
                     <p className=' bg-gradient-to-r from-purple-500 to-orange-400 bg-clip-text text-transparent pr-28 '>
@@ -14,7 +13,7 @@ function Content() {
                     </p>
                 </div>
 
-                <div className='basis-1/4 grid grid-rows-4  gap-4'>
+                <div className='basis-1/4 grid grid-rows-4  gap-4 '>
                     <span className=' border-t-4 border-orange-500 w-8'>
                         {" "}
                         <h2 className='w-40 text-white'>
@@ -42,7 +41,7 @@ function Content() {
                     </span>
                 </div>
 
-                <div className='basis-1/2 grid grid-rows-4  gap-4'>
+                <div className='basis-1/2 grid grid-rows-4  gap-8'>
                     <p className='text-[#81AFDD]'>
                         From they fine john he give rich he .They age and draw
                         mrs like iproving end distursts may
