@@ -19,3 +19,15 @@
 .text_gradient_color{
   @apply bg-gradient-to-r from-purple-500 to-orange-400 bg-clip-text text-transparent;
 }
+.icon_navbar{
+  @apply absolute top-10 right-4  w-12 h-12 items-center  cursor-pointer lg:hidden;
+}
+.hover_navbar{
+  @apply hover:text-color-text;
+}
+
+.signup_button{
+  @apply bg-[#FF4820] border-2 rounded-lg w-40 h-12 flex items-center justify-center   border-[#FF4820] hover:bg-transparent hover:rounded-lg  hover:text-[#FF4820];
+}
+
+
