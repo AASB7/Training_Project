@@ -4,7 +4,7 @@ function Content() {
             <div className='flex justify-around '>
                 <div className='basis-1/2  pl-10'>
                     <p className=' bg-gradient-to-r from-purple-500 to-orange-400 bg-clip-text text-transparent pr-28 '>
-                        The Furure is now and You just need To Realize it. step
+                        The Furure is now and me just need To Realize it. step
                         into Future Today & Make it Happen The Furure is now and
                         You just need To Realize it. .
                     </p>
