@@ -1,16 +1,18 @@
+
+
 function Info() {
   return (
     <>
       
-  <div className="justify-center  text-center  ">
-      <img src="images/ai.png"></img>
+  <div className=" md:hidden sm:hidden justify-center  text-center ">
+      <img src="images/ai.png" ></img>
       </div> 
-      <div className="justify-center  text-center">
+      <div className="justify-center  text-center  ">
       <h2 className="h2 ">Let's Build something <br/> amazing with GPT-3 <br/>openAl </h2>
       <p >Yet bad any for travelling assistance indulgence unpleassing<br/> not throughts all exercise blessing  
       <br/>  way everything joy altereation boisterous the attachment  party<br/> we years to order allow asked of. </p>
-      <input type="text" className="email  " value={'enter your email'} ></input>
-     <button   className="Get "> Get started </button>
+      <input type="text"   className="email  " value={'enter your email'} ></input>
+     <button   className="Get " > Get started </button>
 </div>
 
 <div className="peoples justify-center text-center gap-1"> 
