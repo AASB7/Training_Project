@@ -9,25 +9,8 @@ body{
   padding: 60px ;
   margin-bottom: 30px;
 }  
- .email{
-  background-color: rgba(213, 215, 217, 0.874);
-   color: #edeff2;
-   width: 350px;
-   padding:9.5px ;
-   justify-content: left;
-   
- }    
  
- .Get{
-  font-size: 15px;
-  border-radius: 1px;
-  background-color: #f6370c;
-  margin-bottom: 20px; 
-  width: 110px; 
-  font-weight: bold;
-  padding: 10px;
 
-}
 
 img{
   float:right;
@@ -40,7 +23,7 @@ img{
 .h2{
   font-size: 44px;
   font-family:Inter, sans-serif ;
-  color: #FF8A71 ;
+  
  margin-bottom: 20px;
   font-weight: bold;
   margin-left: 100px;
@@ -57,20 +40,9 @@ margin-left: 100px;
 
 }
 
-.peoples{
-  justify-content: center;
-  display: flex;
-  align-items: center;
-
-}
-
 .p1{
   font-size: 12px;
   color: #fdfdfd; 
-}
-.people1{
-  width: 120px;
-
 }
 
 
