@@ -12,18 +12,21 @@ body{
  
 
 
+
+
+
 img{
   float:right;
   width: 550px;
   margin-bottom: 20px;
   position: relative;
-  
+
 }
 
 .h2{
   font-size: 44px;
   font-family:Inter, sans-serif ;
-  
+
  margin-bottom: 20px;
   font-weight: bold;
   margin-left: 100px;
