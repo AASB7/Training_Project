@@ -6,47 +6,11 @@
 
 body{
   background-color: #042c54 ;
-  padding: 60px ;
-  margin-bottom: 30px;
-}  
- 
-
-
-
-
-
-img{
-  float:right;
-  width: 550px;
-  margin-bottom: 20px;
-  position: relative;
-
 }
 
-.h2{
-  font-size: 44px;
-  font-family:Inter, sans-serif ;
 
- margin-bottom: 20px;
-  font-weight: bold;
-  margin-left: 100px;
- text-align: left;
-}
-p{
-  font-size: 19px;
-  font-family:Inter, sans-serif ;
-color:#81AFDD ;
-margin-bottom: 30px;
-direction: ltr;
-text-align:left;
-margin-left: 100px;
 
-}
 
-.p1{
-  font-size: 12px;
-  color: #fdfdfd; 
-}
 
 
 

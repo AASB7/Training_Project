@@ -2,41 +2,72 @@
 
 function Info() {
   return (
-    <>
+  
+    <div  className="mt-9 mb-8 mx-9"> 
+     <div className="">
+        <img
+          src="images/ai.png"
+          alt="صورة"
+          className="w-1/3 float-right mr-14 my-8 lg:block hidden "
+        />
+        </div>
+      <div className=" text-left ml-14 container mx-auto px-6  flex-col  ">
+        <h1 className="text-5xl h-69 font-bold mt-19 text-gray-700 mb-9 bg-gradient-to-r from-purple-500 to-orange-400 bg-clip-text text-transparent"> Let's Build something<br/>amazing with GPT-3<br/>openAl</h1>
+        <p className="text-md ml-5 text-gray-500 mb-4 color-text">yet bad any for travelling assistance indulgence unpleassing <br/> 
+        not throughts all exercise blessing<br/>way everything joy altereation boisterous the attachment party<br/>
+        we years to order allow asked of.  </p>
+        </div> 
       
-      <div className=" lg:block hidden   ">
-      <img src="images/ai.png" ></img>
-      </div> 
-    
-
+        
+        <div className="mb-6 ml-20 mb-10">
+         <input 
+          type="enter" value={'your email address' }
+          className="bg-gray-500  text-gray-700 border-orange-400 rounded-l-lg px-28 py-3"
+          placeholder="Input"
+        />
+        <button className="bg-orange-600 text-white px-6 py-3 md:text-base  md:px-10 sm:px-10  text-left mr-2 rounded-r-lg " >
+          Git Started
+        </button>
+        </div>
+      
+        <div className="justify-center flex items-center mb-10">
+        <img
+         src="images/people.png"
+         alt="صورة"
+        className="w-14 h-5  "/>
+        <p className="text-xs text-right ">1,600 proples requsted access a visit in last 24 hours </p>
+        </div>
        
-      <div className="justify-center  text-center ">
-      <h2 className="h2 flex  sm:flex-nowrap justify-between bg-gradient-to-r from-purple-500 to-orange-400 bg-clip-text text-transparent ">Let's Build something <br/> amazing with GPT-3 <br/>openAl </h2>
-      <p className="text-sm sm:text-base">Yet bad any for travelling assistance indulgence unpleassing<br/> not throughts all exercise blessing  
-      <br/>  way everything joy altereation boisterous the attachment  party<br/> we years to order allow asked of. </p> 
-     </div>
-     
-     <div className=" flex  justify-center    sm:align-center  ">
-     <input type="text"  className="email rounded-l-sm bg-gray-600 text-white  sm:text-left  xl:w-1/2 h-10 py-6 ml-4 sm:w-20 lg:w-29 lg:right-10" value={' your Email Address'} ></input>
-     <button   className="Get rounded-r-sm h-19 px-4  sm:w-14 xl:w-32 text-slate-100  bg-orange-600 font-bold md:w-45" > Get started </button>
-    </div>
-    
- 
-
-
-<div className=" justify-center flex items-center  space-x-4  md:grid-cols-2 m-5  "> 
-  <img src="images/people.png" className="w-20  "></img>
- <p className="p1 text-center sm:text-left">1,600 poples requested access a visit in last 24 hours  </p>
+        <div className="flex  items-center justify-center gap-4">
+  <img
+    src="images/google.png"
+    alt="صورة1"
+    className="w-14 md:w-30 lg:w-14 mr-4 mb-4"
+  />
+  <img
+    src="images/slack.png"
+    alt="صورة2"
+    className="w-20 md:w-30 lg:w-14 mr-4 mb-4"
+  />
+  <img
+    src="images/atlassian.png"
+    alt="صورة3"
+    className="w-20 md:w-30 lg:w-14 mr-4 mb-4"
+  />
+  <img
+    src="images/dropbox.png"
+    alt="صورة4"
+    className="w-20 md:w-30 lg:w-14 mr-4 mb-4"
+  />
+  <img
+    src="images/shopify.png"
+    alt="صورة5"
+    className="w-15 md:w-30 lg:w-14 mr-4 mb-4"
+  />
 </div>
- <div  className=" flex items-center justify-center  gap-5   ">
-  <img  className="w-14 " src="images/google.png"></img>
-  <img className="w-14"  src="images/slack.png"></img>
-  <img className="w-14"  src="images/atlassian.png"></img>
-  <img className="w-14"  src="images/dropbox.png"></img>
-  <img  className="w-14"  src="images/shopify.png"></img>
- </div>
-
-    </>
+      
+    </div>
   );
 }
+
 export default Info
