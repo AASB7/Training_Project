@@ -3,7 +3,8 @@
 function Info() {
   return (
   
-    <div  className="mt-9 mb-8 mx-9"> 
+    <div  className="mt-5  mx-14
+     "> 
      <div className="">
         <img
           src="images/ai.png"
